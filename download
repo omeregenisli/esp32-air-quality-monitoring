@@ -1,0 +1,8 @@
+# Never upload real secrets to GitHub
+arduino_secrets.h
+thingProperties.h
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
