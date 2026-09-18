@@ -6,6 +6,10 @@ Arduino IoT Cloud dashboard.
 
 ![Dashboard Screenshot](docs/dashboard_screenshot.png)
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/G1FGOEEV57c/0.jpg)](https://www.youtube.com/watch?v=G1FGOEEV57c)
+
 ## Overview
 
 This project reads gas concentration data from an MQ-135 sensor and
@@ -13,6 +17,8 @@ temperature/humidity data from a DHT11 sensor, publishing both to
 Arduino IoT Cloud in real time. The cloud dashboard displays three
 live gauges (Temperature, Humidity, Air Quality) plus historical
 charts.
+
+![Live gauges](docs/dashboard_live_gauges.png)
 
 ## Hardware
 
@@ -32,6 +38,8 @@ charts.
 | DHT11   | VCC  | 3V3       |
 | DHT11   | GND  | GND       |
 | DHT11   | DATA | GPIO5     |
+
+![Wired hardware](docs/wired_hardware.png)
 
 ## Setup
 
