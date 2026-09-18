@@ -4,7 +4,7 @@ An IoT air quality monitoring system built on an ESP32 Dev Module,
 streaming live temperature, humidity, and air quality data to an
 Arduino IoT Cloud dashboard.
 
-![Dashboard Screenshot](docs/dashboard_screenshot.png)
+![Wired Hardware](wired_hardware.png)
 
 ## Demo
 
@@ -18,7 +18,7 @@ Arduino IoT Cloud in real time. The cloud dashboard displays three
 live gauges (Temperature, Humidity, Air Quality) plus historical
 charts.
 
-![Live gauges](docs/dashboard_live_gauges.png)
+![Live gauges](dashboard_live_gauges.png)
 
 ## Hardware
 
@@ -38,8 +38,6 @@ charts.
 | DHT11   | VCC  | 3V3       |
 | DHT11   | GND  | GND       |
 | DHT11   | DATA | GPIO5     |
-
-![Wired hardware](docs/wired_hardware.png)
 
 ## Setup
 
